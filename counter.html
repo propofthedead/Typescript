@@ -6,9 +6,16 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <script src="counter.ts"></script>
 </head>
-<body>
-    
+<body onload="loaded()">
+    <div>
+        <button id="sub" onclick="change(-1)">-</button>
+        <input id="nbr" type="number" style="text-align: center;">
+        <button onclick="change(1)" id="plus">+</button>
+    </div>
+    <div>
+
+    </div>
 </body>
 </html>
