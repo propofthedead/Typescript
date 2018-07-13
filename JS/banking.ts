@@ -9,7 +9,9 @@ class Account{
         this.description=desp;
         this.balance=0;
     }
-
+    getId() : number{
+        return this.Id
+    }
     deposit(amount: number): void{
         this.balance+= amount;
     }
