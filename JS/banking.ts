@@ -40,3 +40,11 @@ class Savings extends Account{
 
 let acc1= new Account(1);
 let sav1= new Savings(2);
+
+console.log(sav1.getBalance());
+sav1.deposit(1000);
+console.log(sav1.getBalance());
+sav1.withdraw(150);
+console.log(sav1.getBalance());
+sav1.calcInterest();
+console.log(sav1.getBalance());
